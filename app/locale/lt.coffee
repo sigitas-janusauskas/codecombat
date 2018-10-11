@@ -64,7 +64,7 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
 #    want_coco: "Want CodeCombat at your school?"
 
   nav:
-#    map: "Map"
+#    map: "Žemėlapis"
     play: "Lygiai" # The top nav bar entry where players choose which levels to play
     community: "Bendruomenė"
     courses: "Kursai"
@@ -100,7 +100,7 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
     help_suff: "ir mes susisieksime!"
     resource_hub: "Išteklių centras"
 #    apcsp: "AP CS Principles"
-#    parent: "Parents"
+#    parent: "Tėvams"
 
   modal:
     close: "Uždaryti"
@@ -119,8 +119,8 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
 
   play:
     play_as: "Žaisti kaip" # Ladder page
-#    get_course_for_class: "Assign Game Development and more to your classes!"
-#    request_licenses: "Contact our school specialists for details."
+#    get_course_for_class: "Įkelkite žaidimo kūrinį į jūsų klases." # "Assign Game Development and more to your classes!"
+#    request_licenses: "Susisiekti su mūsų specialistais ir sužinoti daugiau."
     compete: "Varžytis!" # Course details page
     spectate: "Stebėti" # Ladder page
     players: "žaidėjai" # Hover over a level on /play
@@ -138,7 +138,7 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
     poll: "Apklausa" # Tooltip on poll button from /play
     next: "Kitas" # Go from choose hero to choose inventory before playing a level
     change_hero: "Keisti Herojų" # Go back from choose inventory to choose hero
-#    change_hero_or_language: "Change Hero or Language"
+#    change_hero_or_language: "Pasirinkti Herojų arba kalbą"
     buy_gems: "Pirkti Deimantus"
 #    subscribers_only: "Subscribers Only!"
 #    subscribe_unlock: "Subscribe to Unlock!"
@@ -152,21 +152,21 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
     adjust_volume: "Reguliuoti garsą"
     campaign_multiplayer: "Daugelio žaidėjų arenos"
     campaign_multiplayer_description: "... kuriose tu prgramuoji kad įveiktum kitus žaidėjus."
-#    brain_pop_done: "You’ve defeated the Ogres with code! You win!"
-#    brain_pop_challenge: "Challenge yourself to play again using a different programming language!"
-#    replay: "Replay"
-#    back_to_classroom: "Back to Classroom"
-#    teacher_button: "For Teachers"
-#    get_more_codecombat: "Get More CodeCombat"
+#    brain_pop_done: "Su kodo pagalba jūs nugalėjote ogrus! Jūs laimėjote!"
+#    brain_pop_challenge: "Išbandyk save dar kartą panaudojes įvairias programavimo kalbas!"
+#    replay: "Pakartoti"
+#    back_to_classroom: "Atgal į klasę"
+#    teacher_button: "Mokytojams"
+#    get_more_codecombat: "Gauti daugiau galimybių iš CodeCombat"
 
 #  code:
-#    if: "if" # Keywords--these translations show up on hover, so please translate them all, even if it's kind of long. (In the code editor, they will still be in English.)
+#    if: "jeigu" # Keywords--these translations show up on hover, so please translate them all, even if it's kind of long. (In the code editor, they will still be in English.)
 #    else: "else"
 #    elif: "else if"
 #    while: "while"
-#    loop: "loop"
-#    for: "for"
-#    break: "break"
+#    loop: "ciklas"
+#    for: "dėl"
+#    break: "atšaukti"
 #    continue: "continue"
 #    pass: "pass"
 #    return: "return"
@@ -414,9 +414,9 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
     contact_us: "Susisiek su mumis"
     close_window: "Uždaryti langą"
     learn_more: "Sužinok daugiau"
-#    more: "More"
-#    fewer: "Fewer"
-#    with: "with"
+#    more: "Daugiau"
+#    fewer: "Mažiau"
+#    with: "su"
 
   units:
     second: "sekundė"
@@ -1035,12 +1035,12 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
 #    maximum_students: "Maximum # of Students"
 #    unlimited: "Unlimited"
 #    priority_support: "Priority support"
-#    yes: "Yes"
+#    yes: "Taip"
 #    price_per_student: "__price__ per student"
-#    pricing: "Pricing"
-#    free: "Free"
-#    purchase: "Purchase"
-#    courses_prefix: "Courses"
+#    pricing: "pricing"
+#    free: "Nemokamai"
+#    purchase: "Apmokėti"
+#    courses_prefix: "Kursai"
 #    courses_suffix: ""
 #    course_prefix: "Course"
 #    course_suffix: ""
@@ -2623,13 +2623,13 @@ module.exports = nativeDescription: "lietuvių kalba", englishDescription: "Lith
 #    mission3_copy: "At CodeCombat, we’re parents. We’re coders. We’re educators. But most of all, we’re people who believe in giving our kids the best opportunity for success in whatever it is they decide to do."
 
 #  parent_modal:
-#    refer_teacher: "Refer Teacher"
-#    name: "Your Name"
-#    parent_email: "Your Email"
-#    teacher_email: "Teacher's Email"
-#    message: "Message"
-#    custom_message: "I just found CodeCombat and thought it'd be a great program for your classroom! It's a computer science learning platform with standards-aligned curriculum.\n\nComputer literacy is so important and I think this would be a great way to get students engaged in learning to code."
-#    send: "Send Email"
+#    refer_teacher: "Informuoti mokytoja"
+#    name: "Jusu vardas"
+#    parent_email: "Jūsu Email"
+#    teacher_email: "Mokytojo Email"
+#    message: "Pranešimas"
+#    custom_message: "Aš katik radau CodeCombat ir pagalvojau, kad tai bus puiki programa jūsų klasei! Ši platforma skirta mokyti informatikos su mokymo programa atitinkančia mokymo standartus.\n\nKompiuterinis raštingumas labai svarbus, ir aš galvoju, kad tai bus puikus metodas sudominti mokinius mokintis programuoti."
+#    send: "Išsiūsti"
 
 #  hoc_2018:
 #    learn_more_copy: "CodeCombat is a comprehensive program built for all teachers. Want to take Hour of Code to the next level?"
